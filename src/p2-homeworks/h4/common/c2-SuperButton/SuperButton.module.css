@@ -1,0 +1,9 @@
+.default {
+    width: 100px;
+    background: green;
+}
+
+.red {
+    width: 100px;
+    background: red;
+}

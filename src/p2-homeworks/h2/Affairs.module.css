@@ -1,0 +1,29 @@
+.delBtn {
+    position: absolute;
+    right: 250px;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+.affair {
+    padding: 5px;
+}
+.commonAffair {
+
+}
+.affairPriorityList {
+    margin-left: 15px;
+}
+.priorityBtn {
+    width: 70px;
+    margin-right: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.priorityBtnStack {
+    margin-top: 30px;
+    text-align: center;
+}
+.mappedAffairs {
+    min-height: 200px;
+
+}

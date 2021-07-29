@@ -1,0 +1,33 @@
+
+input:focus { outline: none; }
+.btn:focus { outline: none; }
+.someClass {
+    margin: 5px;
+    border: 2px solid yellowgreen;
+    width: 250px;
+    height: 30px;
+    border-radius: 15px 0 0 15px;
+}
+
+.error {
+    margin: 5px;
+    border: 2px solid red;
+    width: 250px;
+    height: 30px;
+    border-radius: 15px 0 0 15px;
+}
+
+.errNotification {
+    font-size: 12px;
+    margin-left: 10px;
+    color: red;
+}
+
+.btn {
+    color: white;
+    width: 65px;
+    height: 30px;
+    border-radius: 0 15px 15px 0;
+    border: solid yellowgreen;
+    background-color: yellowgreen;
+}
