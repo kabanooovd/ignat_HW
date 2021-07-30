@@ -23,14 +23,13 @@ function Affair(props: AffairPropsType) {
 
     return (
         <div>
-            <div>
+            <div className={s.affairContainer}>
                 <div className={s.affair}>
-
                     {props.affair.name}
                 </div>
-                <div className={s.delBtn}>
+                <span className={s.delBtn}>
                     <button onClick={deleteCallback}>DEL</button>
-                </div>
+                </span>
             </div>
         </div>
     )

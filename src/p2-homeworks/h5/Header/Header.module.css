@@ -1,0 +1,31 @@
+.mainHeaders {
+    min-height: 100px;
+    width: 100%;
+    padding: 20px;
+}
+
+.HW5 {
+
+}
+
+.navLinks {
+    width: 500px;
+    margin-top: 20px;
+
+}
+
+.eachSingleLink {
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 20px;
+}
+
+.eachSingleLink:hover {
+    opacity: 0.5;
+}
+
+.headerRemote {
+    width: 30px;
+    height: 16px;
+    background-color: gray;
+}

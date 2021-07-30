@@ -1,11 +1,12 @@
 .delBtn {
-    position: absolute;
-    right: 250px;
-    border: 2px solid white;
-    border-radius: 5px;
+    /*position: absolute;*/
+    /*right: 250px;*/
+    /*border: 2px solid white;*/
+    /*border-radius: 5px;*/
 }
 .affair {
-    padding: 5px;
+    min-width: 200px;
+    /*padding: 5px;*/
 }
 .commonAffair {
 
@@ -21,9 +22,12 @@
 }
 .priorityBtnStack {
     margin-top: 30px;
-    text-align: center;
+    margin-left: 40px;
 }
 .mappedAffairs {
-    min-height: 200px;
+    min-height: 150px;
+}
 
+.affairContainer {
+    display: flex;
 }
