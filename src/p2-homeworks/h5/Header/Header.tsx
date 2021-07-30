@@ -1,23 +1,39 @@
 import React, {useState} from 'react'
 import s from './Header.module.css'
-import {Menu} from "./munu/Menu";
+import {NavLink} from "react-router-dom";
 
 function Header() {
+    return (
+        <div>
+            <div className={s.HW5}>HW 5</div>
+            <div className={s.mainHeaders}>
+                <nav className={s.navLinks}>
+                    <NavLink to='/pre-junior'
+                             className={s.eachSingleLink}
+                             activeClassName={s.active}>
 
-    const [menu, setMenu] = useState<boolean>(false)
-    const headerMenuRemoteHandler = () => {
-        setMenu(!menu)
-    }
+                        Pre-Junior
+                    </NavLink>
 
-    if (menu) {
-        return <Menu headerMenuRemoteHandler={headerMenuRemoteHandler}/>
-    } else {
-        return <div className={s.mainHeaders}>
-                <div className={s.HW5}>HW 5</div>
-                <span className={s.eachSingleLink}></span>
-                <button onClick={headerMenuRemoteHandler} className={s.headerRemote}/>
+                    <NavLink to='/junior'
+                             className={s.eachSingleLink}
+                             activeClassName={s.active}>
+
+                        Junior
+                    </NavLink>
+
+                    <NavLink to='/junior-plus'
+                             className={s.eachSingleLink}
+                             activeClassName={s.active}>
+
+                        Junior-plus
+                    </NavLink>
+                    {/*<button onClick={props.headerMenuRemoteHandler} className={s.headerRemote}/>*/}
+                    <button className={s.headerRemote}/>
+                </nav>
             </div>
-    }
+        </div>
+    )
 }
 
 export default Header

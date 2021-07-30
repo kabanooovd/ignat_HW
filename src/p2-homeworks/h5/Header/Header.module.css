@@ -1,7 +1,14 @@
 .mainHeaders {
     min-height: 100px;
-    width: 100%;
-    padding: 20px;
+    width: 400px;
+    padding: 10px;
+
+    transition-duration: 500ms;
+    transform: translate(-310px);
+}
+.mainHeaders:hover {
+    transition-duration: 100ms;
+    transform: translate(0);
 }
 
 .HW5 {
@@ -22,6 +29,10 @@
 
 .eachSingleLink:hover {
     opacity: 0.5;
+}
+
+.active {
+    color: orange;
 }
 
 .headerRemote {

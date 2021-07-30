@@ -16,15 +16,20 @@ const Greeting: React.FC<GreetingPropsType> = (
 ) => {
 
     //const inputClass = s.error // need to fix with (?:)
-    const inputClass = error? s.error: s.someClass
+    const inputClass = error ? s.error : s.someClass
 
+    const enterAdditionHandler = (e: React.KeyboardEvent<HTMLInputElement>) => {
+        if (e.key === 'Enter') addUser()
+    }
 
     return (
         <div>
             <input value={name}
                    onChange={setNameCallback}
                    className={inputClass}
-                   placeholder={'Insert your name'}/>
+                   placeholder={'Insert your name'}
+                   onKeyPress={enterAdditionHandler}
+            />
             <button onClick={addUser} className={s.btn}>add</button>
             <span> People in Array - {totalUsers}</span>
             <div><b><span className={s.errNotification}>{error}</span></b></div>
