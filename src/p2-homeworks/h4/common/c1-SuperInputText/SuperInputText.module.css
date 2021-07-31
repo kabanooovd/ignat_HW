@@ -1,4 +1,17 @@
+.MainInput {
+    display: flex;
+    padding: 20px 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.input {
+    width: 250px;
+}
+
 .superInput {
+
+    outline: none;
     background-color: gray;
 }
 

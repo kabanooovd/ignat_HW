@@ -6,7 +6,8 @@ import SuperCheckbox from './common/c3-SuperCheckbox/SuperCheckbox'
 
 function HW4() {
     const [text, setText] = useState<string>('')
-    const error = text ? '' : 'error'
+     const error = text ? '' : 'error'
+
 
     const showAlert = () => {
         if (error) {
@@ -18,6 +19,10 @@ function HW4() {
 
     const [checked, setChecked] = useState<boolean>(false)
     const testOnChange = (e: ChangeEvent<HTMLInputElement>) => setChecked(e.currentTarget.checked)
+
+    const DefaultSettingsHandler = () => {
+        setText('')
+    }
 
     return (
         <div>
@@ -33,13 +38,13 @@ function HW4() {
                     // spanClassName={s.testSpanError}
                 />
 
-                <SuperInputText
+                {/*<SuperInputText
                     className={s.blue} // проверьте, рабоет ли смешивание классов
-                />
+                />*/}
 
                 {/*----------------------------------------------------*/}
 
-                <SuperButton>
+                <SuperButton onClick={DefaultSettingsHandler}>
                     default
                 </SuperButton>
 
@@ -50,7 +55,7 @@ function HW4() {
                     delete {/*// название кнопки попадёт в children*/}
                 </SuperButton>
 
-                <SuperButton disabled>
+                <SuperButton disabled={!checked}>
                     disabled
                 </SuperButton>
 
@@ -60,11 +65,15 @@ function HW4() {
                     checked={checked}
                     onChangeChecked={setChecked}
                 >
-                    some text {/*// этот текст попадёт в children*/}
+                    To disable button{/*// этот текст попадёт в children*/}
                 </SuperCheckbox>
 
                 {/*// onChange тоже должен работать*/}
-                <SuperCheckbox checked={checked} onChange={testOnChange}/>
+                {/*<SuperCheckbox checked={checked}*/}
+                {/*               onChange={testOnChange} >*/}
+
+                {/*    To disable button*/}
+                {/*</SuperCheckbox>*/}
             </div>
 
             <hr/>

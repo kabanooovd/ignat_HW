@@ -1,9 +1,17 @@
 .default {
-    width: 100px;
+    width: 250px;
     background: green;
 }
 
 .red {
-    width: 100px;
+    width: 250px;
     background: red;
+}
+
+.default:hover {
+    opacity: 0.5;
+}
+
+.red:hover {
+    opacity: 0.5;
 }
