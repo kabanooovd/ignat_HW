@@ -8,8 +8,7 @@ import HW6 from "../../h6/HW6";
 function Junior() {
     return (
         <div>
-            Here is gona be tasks since 6-th lesson till 11th lesson when ill do it
-            {/*<HW6/>*/}
+            Here is gona be tasks since 7-th lesson till 11th lesson when ill do it
 
         </div>
     )
