@@ -1,0 +1,14 @@
+.radioInput {
+    margin-left: 60px;
+    cursor:pointer;
+    width: 40px;
+    height: 40px;
+}
+
+.radio {
+    font-size: 60px;
+}
+
+.singleItem {
+    padding: 20px;
+}
