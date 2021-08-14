@@ -1,11 +1,11 @@
 .default {
     margin: 10px;
-    width: 250px;
+    width: 100px;
     background: green;
 }
 
 .red {
-    width: 250px;
+    width: 100px;
     background: red;
     margin: 10px;
 }

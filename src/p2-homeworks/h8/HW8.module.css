@@ -1,0 +1,10 @@
+.EachPerson {
+    padding: 2px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between
+}
+
+span {
+    font-size: 28px;
+}
