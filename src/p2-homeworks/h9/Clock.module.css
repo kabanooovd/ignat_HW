@@ -1,0 +1,12 @@
+.ClockStyle {
+    height: 90px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.ClockButtons {
+
+}
