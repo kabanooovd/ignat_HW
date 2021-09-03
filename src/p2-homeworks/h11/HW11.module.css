@@ -1,0 +1,10 @@
+.SuperDoubleRangeContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.valueStyle {
+    padding: 20px;
+    width: 70px;
+}

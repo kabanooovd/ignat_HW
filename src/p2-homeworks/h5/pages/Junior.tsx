@@ -11,6 +11,7 @@ import HW10 from "../../h10/HW10";
 import {Provider} from "react-redux";
 import store from "../../h10/bll/store";
 
+
 function Junior() {
     return (
         <div>
@@ -21,6 +22,7 @@ function Junior() {
             <Provider store={store}>
                 <HW10 />
             </Provider>
+
         </div>
     )
 }
