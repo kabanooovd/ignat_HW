@@ -3,7 +3,8 @@
 }
 
 .dark-text {
-    color: aliceblue;
+    color: dimgrey;
+    min-height: 330px;
 }
 
 .red {
@@ -11,7 +12,8 @@
 }
 
 .red-text {
-    color: aqua;
+    color: lightcoral;
+    min-height: 330px;
 }
 
 .some {
@@ -19,5 +21,16 @@
 }
 
 .some-text {
-    color: darkslateblue;
+    color: lightgreen;
+    min-height: 330px;
+
 }
+
+.SuperSelectPos {
+    display: flex;
+    justify-content: space-around;
+}
+/*.textStyle {*/
+/*    width: 400px;*/
+/*    min-height: 330px;*/
+/*}*/

@@ -4,13 +4,14 @@ import HW2 from '../../h2/HW2'
 import HW3 from '../../h3/HW3'
 import HW4 from '../../h4/HW4'
 import HW11 from "../../h11/HW11";
+import HW12 from "../../h12/HW12";
 
 function Junior() {
     return (
         <div>
-            Here is gona be tasks since 11-th lesson till the end
-            {/*<HW6/>*/}
-            <HW11 />
+            Here is gona be tasks since 12-th lesson till the end
+            <HW12/>
+
 
         </div>
     )
