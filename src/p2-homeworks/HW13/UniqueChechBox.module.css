@@ -1,0 +1,25 @@
+.checkboxTrue {
+    cursor: pointer;
+    border: 1px solid snow;
+    background-color: #424141;
+    width: 35px;
+    height: 35px;
+}
+
+.checkboxFalse {
+    cursor: pointer;
+    border: 1px solid snow;
+    background-color: #424141;
+    color: yellowgreen;
+    font-size: 25px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
